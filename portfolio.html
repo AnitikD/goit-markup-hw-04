@@ -27,7 +27,7 @@
               <a href="./index.html" class="main-nav-link link">Студия</a>
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="main-nav-link link current">Портфолио</a>
+              <a href="./portfolio.html" class="main-nav-link link  current">Портфолио</a>
             </li>
             <li class="nav-item"><a href="" class="main-nav-link link">Контакты</a></li>
           </ul>
@@ -35,13 +35,20 @@
         <ul class="contacts-nav list">
           <li class="nav-item">
             <a href="mailto:info@devstudio.com" class="contacts-nav-list link"
-              >info@devstudio.com</a
+              >
+              <svg aria-label="envelope" class="nav-item-icon" width="16" height="12">
+              <use href="./images/sprite.svg#envelope"></use>
+            </svg>info@devstudio.com</a
             >
           </li class="nav-item">
-          <li><a href="tel:+380961111111" class="contacts-nav-list link">+38 096 111 11 11</a></li>
+          <li><a href="tel:+380961111111" class="contacts-nav-list link">
+            <svg aria-label="smartphone" class="nav-item-icon" width="10" height="16">
+              <use href="./images/sprite.svg#smartphone"></use>
+            </svg>+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
+
     <main>
       <section class="portfolio">
         <div class="conteiner">
@@ -153,29 +160,80 @@
         
       </section>
     </main>
-          <footer class="footer-nav">
-      <div class="conteiner">
-        <a lang="en" href="" class="logo-ftr logo">Web<span class="logo-ftr-color">Studio</span></a>
-      <address class="address">
-        <ul class="list">
-          <li class="logo-ftr-list"
-          >
-            <a
-              href="https://goo.gl/maps/zRHJoUfgEX58yUW17"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="address-list link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="logo-ftr-list"
-          >
-            <a href="mailto:info@example.com" class="contacts-list link">info@example.com</a></li>
-          <li class="logo-ftr-list"
-          >
-            <a href="tel:+380991111111" class="contacts-list link">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+        <footer class="footer-nav">
+       <div class="footer-conteiner conteiner">
+
+        <div class="contacts-wrapper">
+          <a lang="en" href="" class="logo-ftr logo">Web<span class="logo-ftr-color">Studio</span></a>
+          <address class="address">
+            <ul class="list">
+              <li class="logo-ftr-list"
+              >
+                <a
+                  href="https://goo.gl/maps/zRHJoUfgEX58yUW17"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="address-list link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="logo-ftr-list"
+              >
+                <a href="mailto:info@example.com" class="contacts-list link">info@example.com</a></li>
+              <li class="logo-ftr-list"
+              >
+                <a href="tel:+380991111111" class="contacts-list link">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="icons-wrapper">
+          <p class="icons-wrapper-text">присоединяйтесь</p>
+          <ul class="icons-wrapper-list list">
+              <li class="icons-wrapper-item">
+                <a href="" class="icons-wrapper-link">
+                  <svg aria-label="instagram" class="icons-wrapper-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-wrapper-item">
+                <a href="" class="icons-wrapper-link">
+                  <svg aria-label="twitter" class="icons-wrapper-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-wrapper-item">
+                <a href="" class="icons-wrapper-link">
+                  <svg aria-label="facebook" class="icons-wrapper-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-wrapper-item">
+                <a href="" class="icons-wrapper-link">
+                  <svg aria-label="linkedin" class="icons-wrapper-icon" width="20" height="20">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+
+
+
+        </div>
+
+      
+
+
+
+
+
+
+
+
+
+        
     </div>
       
     </footer>
